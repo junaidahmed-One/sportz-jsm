@@ -1,6 +1,4 @@
-import { integer, timestamp } from "drizzle-orm/gel-core";
-import { jsonb, pgEnum, pgTable, serial, text } from "drizzle-orm/pg-core";
-import { EventEmitterAsyncResource } from "pg/lib/client";
+import { jsonb, pgEnum, pgTable, serial, text, integer, timestamp } from "drizzle-orm/pg-core";
 
 export const matchStatusEnum = pgEnum("match_status", [
   "scheduled",
